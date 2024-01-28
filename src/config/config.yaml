@@ -1,0 +1,38 @@
+dev:
+  env_identifier: "dev"
+  env_explanation: "DEVELOPMENT"
+  db_prefix: "arno_dev"
+  gcp_key: "/home/gcp_keys/gcp-key.json"
+  logger_name: "logger-arno-dev"
+  elastic_index: "arno_dev"
+  kafka_topic: "arno_dev"
+  kafka_servers:
+    server1: X.X.X.X:9092
+    server2: X.X.X.X:9092
+    server3: X.X.X.X:9092
+
+qa:
+  env_identifier: "qa"
+  env_explanation: "QA"
+  db_prefix: "arno_qa"
+  gcp_key: "/home/gcp_keys/gcp-key.json"
+  logger_name: "logger-arno-qa"
+  elastic_index: "arno_qa"
+  kafka_topic: "arno_qa"
+  kafka_servers:
+    server1: X.X.X.X:9092
+    server2: X.X.X.X:9092
+    server3: X.X.X.X:9092
+
+prod:
+  env_identifier: "prod"
+  env_explanation: "PRODUCTION"
+  db_prefix: "arno_prod"
+  gcp_key: "/home/gcp_keys/gcp-key.json"
+  logger_name: "logger-arno-prod"
+  elastic_index: "arno_prod"
+  kafka_topic: "arno_prod"
+  kafka_servers:
+    server1: X.X.X.X:9092
+    server2: X.X.X.X:9092
+    server3: X.X.X.X:9092
